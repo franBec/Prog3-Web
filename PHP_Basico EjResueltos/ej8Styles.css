@@ -1,0 +1,8 @@
+table, td, tr{
+    border: 1px solid crimson;
+    border-collapse: collapse;
+}
+
+h1{
+    color: rgb(35, 167, 167);
+}

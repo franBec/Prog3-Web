@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Tablas</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+#tblContent {
+  width: 50%;
+  border: 1px solid black;
+  padding:4px 
+  border-collapse: collapse;
+  background: #999900;
+}
+#tblContent td,
+#tblContent th {
+  border: 1px solid black;
+  text-align: center;
+  background: #99CCCC;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+}</style>
+</head>
+
+<body>
+
+<table id="tblContent">
+  <caption title="tablita">Tabla 2</caption>
+  <tr> 
+    <td style="background-color:#CCCCFF" rowspan="2"><strong>Docentes<br>Profesor - Auxiliar</strong></td>
+    <td style="background-color:#CCCCFF" rowspan="2"><strong>Materia</strong></td>
+    <td style="background-color:#CCCCFF" colspan="2"><strong>Aulas</strong></td>
+  </tr>
+
+  <tr>
+    <td style="background-color:#CCCCFF"><strong>Teoría</strong></td>
+    <td style="background-color:#CCCCFF"><strong>Práctico</strong></td>
+  </tr>
+
+  <tr>
+    <td>Nbre. del Profesor<br>Nbre. del Auxiliar</td>
+    <td>Nbre. de la materia 1</td>
+    <td>Nro. de Aula</td>
+    <td>Nro./s de Aula/s</td>
+  </tr>
+
+  <tr>
+    <td>Nbre. del Profesor<br>Nbre. del Auxiliar</td>
+    <td>Nbre. de la materia 2</td>
+    <td>Nro. de Aula</td>
+    <td>Nro./s de Aula/s</td>
+  </tr>
+</table>
+</body>
+</html>
